@@ -1,5 +1,6 @@
-# from parrot_core import parrotcore
-import parrot_core
+# import parrot_core
+from parrot_core import parrotcore as bad_bird
+
 
 # 鹦鹉学舌
 active = True
@@ -9,8 +10,8 @@ while active:
     # message = input(parrot + master)
     # print('鹦鹉: ' + message + '~')
 
-    # parrotcore()
-    parrot_core.parrotcore()
+    # parrot_core.parrotcore()
+    bad_bird()
 
     quit_order = input('鹦鹉: 主人，还玩不玩了' + '\n(玩/不玩)')
     if (quit_order != '不玩') & (quit_order != '不玩了'):
